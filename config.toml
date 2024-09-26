@@ -1,0 +1,15 @@
+[snapshot]
+# Increase the maximum file size for automatic snapshots
+max-new-file-size = "10MiB"
+
+[user]
+name = "SarsaparillaSunrise"
+email = "149747120+SarsaparillaSunrise@users.noreply.github.com"
+
+[ui]
+# Override output of `jj`. `status` used way more than `log`
+default-command = ["status"]
+# Override default `auto` - I'll handle escape codes thank you very much
+color = "always"
+# Show relative timestamps in log output
+relative-timestamps = true
